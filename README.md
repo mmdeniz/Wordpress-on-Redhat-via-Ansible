@@ -1,4 +1,7 @@
-# Wordpress-Ansible-Automation
+# Wordpress Installation and Configuration via Ansible on Redhat Linux on AWS
+
+
+
 A simple compilation of Ansible roles to install WordPress Stack on CentOs 7
 
 WordPress+Apache+PHP+MariaDB Deployment with required dependencies on CentOs7
