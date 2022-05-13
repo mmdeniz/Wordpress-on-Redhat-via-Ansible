@@ -15,6 +15,14 @@ Install ansible
 
 `sudo yum install ansible`
 
+Create a ssh key with defaults
+
+`ssh-keygen`
+
+Copy the key to Authorized Keys
+
+`cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
+
 A simple compilation of Ansible roles to install WordPress Stack on Redhat
 
 WordPress+Apache+PHP+MariaDB Deployment with required dependencies on Redhat
