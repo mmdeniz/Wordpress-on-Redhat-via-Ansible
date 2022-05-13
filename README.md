@@ -15,6 +15,10 @@ Install ansible
 
 `sudo yum install ansible`
 
+Install nano text editor
+
+`sudo yum install nano`
+
 Create a ssh key with defaults
 
 `ssh-keygen`
