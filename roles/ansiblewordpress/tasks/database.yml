@@ -1,9 +1,8 @@
-
 - name: Install MariaDB-Server
   yum: 
    name:
       - mariadb-server
-    state: present
+   state: present
   tags: database
   
 - name: Install MariaDB-client
@@ -17,7 +16,7 @@
   yum: 
     name:
       - pkg: MySQL-python 
-      state: present
+    state: present
   tags: database
   
 - name: Start and enable MariaDB-Server
