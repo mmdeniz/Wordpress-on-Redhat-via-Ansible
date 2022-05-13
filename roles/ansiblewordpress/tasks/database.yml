@@ -46,15 +46,15 @@
   ignore_errors: yes
   tags: database
   
-- name: Remove the annynmous user
-  mysql_user: 
-    name: '' 
-    login_user: root 
-    login_password: {{ mysql_root_password }} 
-    host: localhost 
-    state: absent
-  ignore_errors: yes
-  tags: database
+#- name: Remove the annynmous user
+#  mysql_user: 
+#    name: '' 
+#    login_user: root 
+#    login_password: {{ mysql_root_password }} 
+#    host: localhost 
+#    state: absent
+#  ignore_errors: yes
+#  tags: database
   
 - name: Remove the test database
   mysql_db: 
