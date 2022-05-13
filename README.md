@@ -18,4 +18,4 @@ Then run the playbook with the below command:
 
 ansible-playbook wordpressplaybook.yml
 
-Happy blogging.
+Good luck!
