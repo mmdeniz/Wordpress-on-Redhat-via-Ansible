@@ -3,9 +3,9 @@
 
 
 
-A simple compilation of Ansible roles to install WordPress Stack on CentOs 7
+A simple compilation of Ansible roles to install WordPress Stack on Redhat
 
-WordPress+Apache+PHP+MariaDB Deployment with required dependencies on CentOs7
+WordPress+Apache+PHP+MariaDB Deployment with required dependencies on Redhat
 
 Playbooks deploy a simple all-in-one WordPress configuration ready to be configured after the installation.
 
