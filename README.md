@@ -19,6 +19,10 @@ Install nano text editor
 
 `sudo yum install nano`
 
+Install git
+
+`sudo yum install git`
+
 Create a ssh key with defaults
 
 `ssh-keygen`
