@@ -15,7 +15,7 @@
 - name: Install MySQL-python pkg
   yum: 
     name:
-      - MySQL-python 
+      - MySQL-python --disableexcludes=all
     state: present
   tags: database
   
