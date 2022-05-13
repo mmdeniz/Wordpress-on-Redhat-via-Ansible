@@ -27,6 +27,14 @@ Copy the key to Authorized Keys
 
 `cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
 
+Edit hosts file under /etc/ansible
+
+`sudo nano /etc/ansible/hosts`
+
+Copy and paste hostsexample file to the top of the hosts file
+
+
+
 A simple compilation of Ansible roles to install WordPress Stack on Redhat
 
 WordPress+Apache+PHP+MariaDB Deployment with required dependencies on Redhat
