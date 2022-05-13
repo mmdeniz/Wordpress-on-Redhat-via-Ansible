@@ -1,7 +1,15 @@
 # Wordpress Installation and Configuration via Ansible 
 # on Redhat Linux on AWS
 
+Create the AWS EC2 Instance and connect via SSH
 
+Update and upgrade the linux
+
+sudo yum update && sudo yum upgrade -y
+
+go to your home directory
+
+`cd ~`
 
 A simple compilation of Ansible roles to install WordPress Stack on Redhat
 
