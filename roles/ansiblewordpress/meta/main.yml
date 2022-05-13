@@ -1,16 +1,16 @@
 ---
 galaxy_info:
   role_name: Ansible-WordPress-Role
-  author: ke3
+  author: mmdeniz
   version: 1.0
   name: Ansible-WordPress-Role
-  description: Automated WordPress Installation Without Going Nuts.
-  displayName: ke3
+  description: Automated WordPress Installation on same host via Ansible.
+  displayName: mmdeniz
   metadata:
     displayName: Ansible-WordPress-Role
-    providerDisplayName: "ke3"
+    providerDisplayName: "mmdeniz"
   license: NA
-  min_ansible_version: 2.7
+  min_ansible_version: 2.9
   platforms:
     - name: EL
       versions:
