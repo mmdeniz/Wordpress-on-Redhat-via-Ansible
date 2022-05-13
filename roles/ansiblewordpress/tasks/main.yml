@@ -1,13 +1,13 @@
 
 # Master Task for installing and configuring MariaDB, Apache & WORDPRESS
-- name: Installing epel-release and yum-utils to download updated version of PHP
-  yum: 
-    name:
-      - epel-release
-      - yum-utils
-      - http://rpms.remirepo.net/enterprise/remi-release-8.rpm
-    state: present
-  tags: php
+#- name: Installing epel-release and yum-utils to download updated version of PHP
+#  yum: 
+#    name:
+#      - epel-release
+#      - yum-utils
+#      - http://rpms.remirepo.net/enterprise/remi-release-8.rpm
+#    state: present
+#  tags: php
   
 - name: enabling the PHP 7.3 Remi repository
   command: yum-config-manager --enable remi-php73 -y
