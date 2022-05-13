@@ -80,11 +80,11 @@
   
 - name: Creating wordpress user and give him all privileges on wordpress db
   mysql_user: 
-    name: {{ wordpress_dbuser }} 
+    name: '{{ wordpress_dbuser }}'
     host: localhost 
     password: '{{ wordpress_dbpass }}'
     state: present 
-    priv: '{{ wordpress_db }}.*:ALL,GRANT'  
+    priv: '{{ wordpress_db }}.*:ALL,GRANT'
     login_user: root 
     login_password: '{{ mysql_root_password }}'
   ignore_errors: yes
