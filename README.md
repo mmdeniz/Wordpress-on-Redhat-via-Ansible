@@ -33,6 +33,11 @@ Edit hosts file under /etc/ansible
 
 Copy and paste hostsexample file to the top of the hosts file
 
+Check the main.yaml file under vars folder
+
+Check the wp-config.php.j2 file under templates folder and update keys with the random keys fron Wordpress site
+
+
 
 
 A simple compilation of Ansible roles to install WordPress Stack on Redhat
