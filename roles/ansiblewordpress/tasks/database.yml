@@ -15,7 +15,7 @@
 - name: Install MySQL-python pkg
   yum: 
     name:
-      - pkg: MySQL-python 
+      - MySQL-python 
     state: present
   tags: database
   
